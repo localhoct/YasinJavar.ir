@@ -3,124 +3,180 @@
 <html class="cufon-active cufon-ready">
 
 <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <title>Open tools</title>
-        <style>
-                /* @media only screen and (max-width: 1080px) {
-                        b {
-                                font-size: 30px;
-                        }
-                } */
-
-                /* @media only screen and (max-width: 768px) {
-                        b {
-                                font-size: 50px;
-                        }
-                }
-
-                @media only screen and (max-width: 320px) {
-                        b {
-                                font-size: 10px;
-                        }
-                } */
-
-                body {
-                        background-color: rgb(40, 44, 52);
-                        text-align: center;
-                        font-weight: bold;
-                        padding-top: 5%;
-                        margin-top: 0;
-                        padding-right: 10%;
-                        padding-left: 10%;
-                }
-
-                p {
-                        color: red;
-                        /* FONT-SIZE: x-large; */
-                        /* MARGIN-LEFT: 5; */
-                }
-
-                a {
-                        color: rgb(18, 224, 36);
-                }
-
-                a:hover {
-                        color: rgb(255, 255, 255);
-                }
-
-                h2 {
-                        color: azure;
-                        background-color: #AFAFAF;
-                        border-radius: 100px;
-                        color: rgb(40, 44, 52);
-                        padding: 5px;
-                        margin: 2px;
-                }
-
-                h1 {
-                        color: rgb(255, 148, 8);
-                        font-size: +320%;
-                        font-family: bold, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                        text-shadow: 2px 2px 4px #000000;
-                        filter: drop-shadow(0 0 0.5rem white);
-                }
-
-                h3 {
-                        color: #969696;
-                }
-        </style>
-
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Open tools</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function downloadURI(uri, name) {
+            var link = document.createElement("a");
+            link.download = name;
+            link.href = uri;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            delete link;
+        }
+    </script>
 <body>
-        <img src="OpenVPN_logo.png" style="width:35%;margin-top: 20px;filter: drop-shadow(0 0 0.5rem black);">
-        <h1>OpenV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N Tools for PassWall</h1>
-        <h3>This configs are from <a style="color: #969696; font-size: larger;"
-                        href="https://Surfshark.com/">Surfshark</a> and DNS from <a
-                        style="color: #969696;font-size: larger;" href="https://adguard.com/">Adguard DNS</a> </h3>
-        <h2>OpenV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N Connect For Windows</h2>
-        <p><a href="https://openvpn.net/downloads/openvpn-connect-v3-windows.msi">Offical
-                        Site
-                        v3</a><a> | </a><a
-                        href="http://ostada.herokuapp.com/w/wqXCqcKm/openvpn_connect_3.3.2.2475_signed.msi">Direct
-                        link
-                        v3</a></p>
-        <p "><a href=" https://openvpn.net/downloads/openvpn-connect-v2-windows.msi">Offical
-                Site
-                v2</a><a> | </a><a
-                        href="http://ostada.herokuapp.com/w/wqXCqcKn/openvpn_connect_2.7.1.111_signed.msi">Direct
-                        link v2</a></p>
 
-        <h2>OpenV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N GUI For Windows</h2>
-        <p><a href="https://openvpn.net/community-downloads/">Offical
-                        Site
-                        </a><a> | </a><a
-                        href="http://ostada.herokuapp.com/w/wqXCqsKp/OpenVPN-2.5.4-I604-amd64.msi">Direct
-                        link
-                        </a></p>
+<div class="container" >
+        <img src="OpenVPN_logo.png" class="grayscale">
+    <h4>This configs are from <a href="https://Surfshark.com/">Surfshark</a> and DNS from <a
+            href="https://adguard.com/">Adguard
+        DNS</a></h4>
 
-        <h2 ">OpenV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N Connect for Android</h2>
-        <p><a href=" https://play.google.com/store/apps/details?id=net.openvpn.openvpn">Google
-                Play</a></p>
-        <h2 ">OpenV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N for Android </h2>
-                <p><a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn">Google
-                        Play</a></p>
-        
-                <h2 ">OpenV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N Connect for iOS</h2>
-        <p><a href=" https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8">App
-                        Store</a></p>
-                        <h2 ">OV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N configs File</h2>
-        <div  style=" font-size: 2rem; margin-top: 5;"><a
-                                        href="../open/sf/">Surfshark Config</a><a> <br> </a>
-<!--                                 <a href="../open/ex/">ExpressV‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*P‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌*N Configs</a> -->
-                                                          </div> 
+    <table>
+        <thead>
+        <tr>
+            <th colspan="3" class="header">Clients Download Links</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>
+                <h2>OpenVPN Connect For Windows</h2>
+            </td>
+            <td style="text-align: center;">
+                <div class="button"
+                     onclick="window.open('https://openvpn.net/downloads/openvpn-connect-v3-windows.msi','_blank')">
+                    Official Site
+                </div>
+                <div class="button"
+                     onclick="window.open('http://Direct.yasinjavar.ir/w/wqXCqcKm/openvpn_connect_3.3.2.2475_signed.msi','_blank')">
+                    Direct Link
+                </div>
+            </td>
+        </tr>
 
-                                <h2 style="background-color:#FFFFFF;border-radius:100px; color:#777171;padding:5px;
-                                                margin:4px;"><a style="color: rgb(40, 44, 52)"
-                                                href=" https://yasinjavar.ir/">Site</a><a> |
-                                        </a><a style="color: rgb(40, 44, 52)"
-                                                href="https://github.com/localhoct">Github</a><a> |
-                                        </a><a style="color: rgb(40, 44, 52)" href="https://t.me/localhoct">Telegram</a>
-                                </h2>
+        <tr>
+            <td>
+                <h2>OpenVPN GUI For Windows</h2>
+            </td>
+            <td style="text-align: center;">
+                <div class="button" onclick="window.open('https://openvpn.net/community-downloads/','_blank')"> Official
+                    Site
+                </div>
+                <div class="button"
+                     onclick="window.open('http://Direct.yasinjavar.ir/w/wqXCqsKp/OpenVPN-2.5.4-I604-amd64.msi','_blank')">
+                    Direct Link
+                </div>
+            </td>
+
+        </tr>
+
+
+        <tr>
+            <td>
+                <h2>OpenVPN for Android </h2>
+            </td>
+            <td style="text-align: center;">
+                <div class="button"
+                     onclick="window.open('https://play.google.com/store/apps/details?id=de.blinkt.openvpn','_blank')">
+                    Google Play
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2> OpenVPN Connect for Android</h2>
+            </td>
+            <td style="text-align: center;">
+                <div class="button"
+                     onclick="window.open('https://play.google.com/store/apps/details?id=net.openvpn.openvpn','_blank')">
+                    Google Play
+                </div>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <h2> OpenVPN Connect for iOS</h2>
+            </td>
+            <td style="text-align: center;">
+                <div class="button"
+                     onclick="window.open('https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8','_blank')">
+                    App Store
+                </div>
+            </td>
+        </tr>
+
+
+    </table>
+
+    <table style="margin-top: 2%;">
+        <thead>
+        <tr>
+            <th colspan="3" class="header">
+                <div onclick="window.open('./open/sf','_blank')"> OPVPN CONFIGS FILE</div>
+            </th>
+        </tr>
+        </thead>
+        <tr>
+            <th style="text-align: center;    font-family: system-ui;">
+                Normal Configs:
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div style="text-align: center;">
+<!--                    onclick="downloadURI('https://raw.githubusercontent.com/localhoct/OpenVPN/main/DE1_UDP.ovpn','DE1_UDP.ovpn')"-->
+<!--                    onclick="window.open('https://raw.githubusercontent.com/localhoct/OpenVPN/main/NL1_UDP.ovpn','_blank')"-->
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/DE1_UDP.ovpn" > Germany 🇩🇪 </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/NL1_UDP.ovpn" > Netherlands 🇳🇱 </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/RO_UDP.ovpn"> Romania 🇷🇴 </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/DK_UDP.ovpn"> Denmark 🇩🇰 </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/AE_UDP.ovpn"> UAE 🇦🇪 (Auto IP) </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/DE_UDP-AutoIP.ovpn"> Germany 🇩🇪 (Auto IP) </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/US_UDP-AutoIP(CHI).ovpn"> USA (Chicago) 🇺🇸 (Auto IP) </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/US_UDP-AutoIP(NY).ovpn"> USA (NewYork) 🇺🇸 (Auto IP) </a>
+                    <a class="button"  href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/CA_UDP-AutoIP.ovpn"> Canada 🇨🇦 (Auto IP) </a>
+
+                </div>
+
+            </th>
+        </tr>
+
+        <tr>
+            <th style="text-align: center;    font-family: system-ui;">
+                Gaming Config: (you can use it as normal)
+            </th>
+        </tr>
+            <tr>
+                <th>
+                    <div style="text-align: center" >
+                        <a class="button" href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/AZ_UDP-AutoIP.ovpn" download>Azerbaijan🇦🇿 (Auto IP)</a>
+                        <a class="button" href="https://raw.githubusercontent.com/localhoct/OpenVPN/main/TR_UDP-AutoIP.ovpn" download>Turkey🇹🇷 (Auto IP)</a>
+                       </div>
+                </th>
+            </tr>
+
+
+        <thead>
+            <tr>
+                <th colspan="3" class="header">
+                    <div style="font-family: Monospace">For Download The Configs Just right Click (touch and hold on phone) on the country you want to connect and select Save Links</div>
+                </th>
+            </tr>
+            </thead>
+    </table>
+
+    <table style="margin-top: 2%;border-radius: 100px; font-size: 160%;margin-bottom:2%">
+        <thead>
+        <tr>
+            <th colspan="1" class="header">
+                <a style="padding-left: 40px;padding-right: 40px;" href="https://yasinjavar.ir/">Site</a>
+                <a style="padding-left: 40px;padding-right: 40px;" href="https://github.com/localhoct">Github</a>
+                <a style="padding-left: 40px;padding-right: 40px;"  href="https://t.me/localhoct">Telegram</a>
+            </th>
+        </tr>
+        </thead>
+    </table>
+</div>
+
+</div>
+
 </body>
 
 </html>
