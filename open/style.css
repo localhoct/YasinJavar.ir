@@ -19,7 +19,12 @@ body {
     left: 50%;
     transform: translate(-50%, 1%)
 }
-
+@media screen and (max-width: 768px) {
+    body {
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
 table {
     width: 800px;
     border-collapse: collapse;
