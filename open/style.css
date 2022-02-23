@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     /*font-weight: 100;*/
-    background: linear-gradient(-45deg, rgb(43, 134, 197), rgb(120, 75, 160), rgb(255, 60, 172));
+    background: linear-gradient(-45deg, rgb(43, 134, 197), rgb(120, 75, 160));
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
     height: 100vh;
