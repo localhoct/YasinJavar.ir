@@ -80,12 +80,14 @@ body {
     left: 50%;
     transform: translate(-50%, 1%)
 }
+
 @media screen and (max-width: 768px) {
     body {
         background-position: center center;
         background-repeat: no-repeat;
     }
 }
+
 table {
     width: 800px;
     border-collapse: collapse;
@@ -236,9 +238,9 @@ tbody td:hover:before {
 
 p {
     color: red;
-    padding-left:12% ;
+    padding-left: 12%;
 
-     FONT-SIZE: large;
+    FONT-SIZE: large;
     /* MARGIN-LEFT: 5; */
     animation-duration: 3s;
     animation-name: slidein;
