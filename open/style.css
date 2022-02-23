@@ -303,3 +303,14 @@ img {
     /*-webkit-filter: drop-shadow(2px 1px 0 rgba(255, 255, 255, 0.2)) drop-shadow(-1px -1px 0 rgba(255, 255, 255, 0.03));*/
     /*filter: drop-shadow(2px 1px 0 black) drop-shadow(-1px -1px 0 black);*/
 }
+
+
+
+.leFadeInLeft span { animation-name: leFadeInLeft }
+@keyframes leFadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to { opacity: 1 }
+}
