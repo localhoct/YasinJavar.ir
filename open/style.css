@@ -173,6 +173,8 @@ p {
 
      FONT-SIZE: large;
     /* MARGIN-LEFT: 5; */
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 a {
