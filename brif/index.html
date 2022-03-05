@@ -27,11 +27,10 @@
 </head>
 <body>
 
-
 <div class="container-contact100">
 
     <div class="wrap-contact100">
-        <form class="contact100-form validate-form" action="https://formspree.io/f/mvolrwpl" method="POST">
+        <form class="contact100-form validate-form" action="https://redteam9798.ir/api/contact_us.php" method="POST">
                 <span style="font-family: Vazir !important;" class="contact100-form-title">
 <!--				<img src="../open/OpenVPN_logo.png">-->
 				</span>
@@ -60,7 +59,7 @@
 
 
             <br>
-            <select class="select-css validate-input input100" name="نوع پروژه" id="نوع پروژه" required="">
+            <select class="select-css validate-input input100" name="projectSubject" id="projectSubject" required>
                 <option value="" selected="" disabled="">نوع پروژه خود را انتخاب کنید.</option>
                 <option value="پست اینستاگرام">طراحی پست اینستاگرام</option>
                 <option value="استوری">طراحی استوری اینستاگرام</option>
@@ -81,7 +80,7 @@
             </h4>
             <div required="" class="wrap-input100 validate-input" data-validate="این فیلد اجباریست.">
                 <textarea class="input100"
-                          name="لطفا شرکت، سازمان یا مغازه خود را معرفی کنید و خدمات یا محصولات خود را شرح دهید."
+                          name="msg1"
                           placeholder=""></textarea>
                 <span class="focus-input100"></span>
             </div>
@@ -90,7 +89,7 @@
 				حدود بودجه ی پیش بینی شده برای این پروژه چقدر است؟	</h4>
 			<div required=""  class="wrap-input100 validate-input" data-validate="این فیلد اجباریست.">
                 <textarea class="input100"
-						  name="حدود بودجه ی پیش بینی شده برای این پروژه چقدر است"
+						  name="msg2"
 						  placeholder="۲۰۰ تا ۴۰۰ هزار تومان ، ۴۰۰ تا ۶۰۰ هزار تومان ، ۶۰۰ تا ۱ میلیون تومان ، حدود ۲ میلیون و..."></textarea>
 				<span class="focus-input100"></span>
 			</div>
@@ -100,7 +99,7 @@
             </h4>
             <div required="" class="wrap-input100 validate-input" data-validate="این فیلد اجباریست.">
                 <textarea class="input100"
-                          name="               با طراحی این پروژه چه هدفی را دنبال میکنید؟"
+                          name="msg3"
                           placeholder="افزایش فروش؟، معرفی برند؟  و ..."></textarea>
                 <span class="focus-input100"></span>
             </div>
@@ -111,7 +110,7 @@
 			</h4>
 			<div required="" class="wrap-input100 validate-input" data-validate="این فیلد اجباریست.">
                 <textarea class="input100"
-						  name="چه افرادی مخاطب محصولات یا خدمات شما هستند؟"
+						  name="msg4"
 						  placeholder="مثلا جوانان ۱۸ تا ۲۵ سال ،یا بانوان ۲۵ تا ۳۵ سال و..."></textarea>
 				<span class="focus-input100"></span>
 			</div>
@@ -121,21 +120,22 @@
 			</h4>
 			<div  class="wrap-input100 validate-input" data-validate="این فیلد اجباریست.">
                 <textarea class="input100"
-						  name="تا به حال از چه ابزار هایی برای تبلیغات و اطلاع رسانی درباره مجموعه خود استفاده کرده اید؟"
+						  name="msg5"
 						  placeholder="استوری اینستاگرام ، پست اینستاگرام ، تبلیغات محیطی مثل بیلبورد و..."></textarea>
 				<span class="focus-input100"></span>
 			</div>
+            <h4 style="direction: rtl;padding-bottom: 5px;font-size: 18px; color: rgb(92, 91, 91);">
+                برتری شما نسبت به رقبایتان چیست؟			<div class="wrap-input100 validate-input" data-validate="اجباریست">
+                <input class="input100" type="text" name="msg7" placeholder="اگر که جوابی ندارید بنویسد بدون جواب">
+                <span class="focus-input100"></span>
+            </div>
 			<h4 style="direction: rtl;padding-bottom: 5px;font-size: 18px; color: rgb(92, 91, 91);">
 در صورتی که نمونه کاری مشابه در زمینه طراحی پروژه خود دیده اید معرفی کنید. یا از طریق واتساپ ارسال کنید.			</h4>
-			<div required="" class="wrap-input100 validate-input" data-validate="اجباریست.">
-				<input class="input100" type="text" name="نمونه مورد پسند" placeholder="اگر که جوابی ندارید بنویسد بدون جواب">
+			<div  class="wrap-input100 validate-input" data-validate="اجباریست.">
+				<input class="input100" type="text" name="msg6" placeholder="اگر که جوابی ندارید بنویسد بدون جواب">
 				<span class="focus-input100"></span>
 			</div>
-			<h4 style="direction: rtl;padding-bottom: 5px;font-size: 18px; color: rgb(92, 91, 91);">
-برتری شما نسبت به رقبایتان چیست؟			<div class="wrap-input100 validate-input" data-validate="اجباریست">
-				<input class="input100" type="text" name="برتری" placeholder="اگر که جوابی ندارید بنویسد بدون جواب">
-				<span class="focus-input100"></span>
-			</div>
+
 <!--			<input type="file" name="attachment" accept="image/png, image/jpeg">-->
 
 
